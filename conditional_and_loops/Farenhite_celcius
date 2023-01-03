@@ -1,0 +1,8 @@
+S = int(input())
+E = int(input())
+W = int(input())
+temp = S
+while (temp <= E):
+    celcius = ((temp-32)*5)/9
+    print(temp, int(celcius))
+    temp = temp + W
