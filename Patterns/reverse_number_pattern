@@ -1,0 +1,11 @@
+n = int(input())
+
+currRow = 1
+while currRow <= n:
+    currCol = currRow
+
+    while currCol >= 1:
+        print(currCol, end="")
+        currCol -= 1
+    print()
+    currRow += 1

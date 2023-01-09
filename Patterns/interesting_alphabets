@@ -1,0 +1,10 @@
+n=int()
+currRow=1
+while currRow<=n:
+    currCol=1
+    char=ord('A')+n-currRow
+    while currCol<=currRow:
+        print(chr(char+currCol-1),end="")
+        currCol+=1
+    print()
+    currRow+=1
